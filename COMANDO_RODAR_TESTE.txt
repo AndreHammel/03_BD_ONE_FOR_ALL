@@ -1,0 +1,5 @@
+container deve estar iniciado;
+docker exec -it one_for_all bash;
+npm test -- -t "01";
+npm test -- -t "02";
+npm test -- -t "03";
